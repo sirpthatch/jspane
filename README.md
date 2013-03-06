@@ -12,13 +12,9 @@ element.
 
 See the test.html file for an example of how to use this.
 
-Quickstart:
-
 Add the following to your header:
-<pre>
-    <script type="text/javascript" src="[INSERT JQUERY REFERENCE]"></script>
-    <script  type="text/javascript" src="js/jspane.js"></script>
-</pre>
+<script type="text/javascript" src="[INSERT JQUERY REFERENCE]"></script>
+<script  type="text/javascript" src="js/jspane.js"></script>
 
 Then somewhere in your script (best if at the end):
 $(".paneimg").pane();
