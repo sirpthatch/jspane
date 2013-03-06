@@ -15,8 +15,12 @@ See the *test.html* file for an example of how to use this.
 **QuickStarter**
 
 Add the following to your header:
-    <script type="text/javascript" src="[INSERT JQUERY REFERENCE]"></script>
-    <script  type="text/javascript" src="js/jspane.js"></script>
+'''html
+<script type="text/javascript" src="[INSERT JQUERY REFERENCE]"></script>
+<script  type="text/javascript" src="js/jspane.js"></script>
+'''
 
 Then somewhere in your script (best if at the end):
-    $(".paneimg").pane();
+'''javascript
+$(".paneimg").pane();
+'''
